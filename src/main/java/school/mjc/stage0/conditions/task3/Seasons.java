@@ -5,13 +5,13 @@ public class Seasons {
         if ((1 <= month && month <= 2) || (month == 12)) {
             System.out.println("winter");
         } else if (3 <= month && month <= 5) {
-            System.out.println("spring");
+            System.out.println("Spring");
         } else if (6 <= month && month <= 8) {
-            System.out.println("summer");
+            System.out.println("Summer");
 
         } else if (9 <= month && month <= 11) {
-            System.out.println("autumn");
-        } else System.out.println("wrong number!");
+            System.out.println("Autumn");
+        } else System.out.println("Wrong number!");
 
     }
 }
